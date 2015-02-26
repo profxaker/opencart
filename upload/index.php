@@ -3,9 +3,7 @@
 define('VERSION', '2.0.1.2_rc');
 
 // Configuration
-if (is_file('config.php')) {
-	require_once('config.php');
-}
+if (is_file('config.php')) require_once('config.php');
 
 // Install
 if (!defined('DIR_APPLICATION')) {
